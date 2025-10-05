@@ -6,7 +6,7 @@ from PIL import Image
 import os
 
 # Load model
-MODEL_PATH = "/home/esmail/Desktop/MRI/saved_model/brain_tumor_model.h5"
+MODEL_PATH = "C:/Users/iTech/Downloads/MRI/saved_model/brain_tumor_model.h5"
 if os.path.exists(MODEL_PATH):
     model = load_model(MODEL_PATH)
     st.success("✅ Model loaded successfully!")
