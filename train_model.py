@@ -3,8 +3,8 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Paths
-DATA_DIR = "/home/esmail/Desktop/MRI/data"
-MODEL_PATH = "/home/esmail/Desktop/MRI/saved_model/brain_tumor_model.h5"
+DATA_DIR = "C:/Users/iTech/Downloads/MRI/data/data_set1"
+MODEL_PATH = "C:/Users/iTech/Downloads/MRI/saved_model/brain_tumor_model.h5"
 
 # Image parameters
 IMG_SIZE = (150, 150)
@@ -50,7 +50,8 @@ history = model.fit(
 )
 
 # Save model
-os.makedirs("../saved_model", exist_ok=True)
+
+os.makedirs("C:/Users/iTech/Downloads/MRI/saved_model", exist_ok=True)
 model.save(MODEL_PATH)
 
 print(f"✅ Model trained and saved at {MODEL_PATH}")
