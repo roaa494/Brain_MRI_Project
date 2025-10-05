@@ -1,14 +1,17 @@
 # Brain MRI Project
 
 A project for analyzing brain MRI images using Machine Learning.  
-The goal of this project is to develop a faster and more accurate way to examine and analyze brain scans using the provided scripts and code.
-
-## Project Idea
-The project focuses on processing brain image data, preparing it, and running a trained model to detect certain patterns or conditions in the images.  
-It can be used for experiments or further medical analysis.
+The goal is to provide a framework for processing brain scans and running a trained model.
 
 ## Current Files
-- app.py : Main code to run the application (simple interface to interact with the model).  
+
+- app.py : Main application code to interact with the model.  
 - main.py : Script to run the model on new data.  
-- train_model.py : Code to train the model (for reference or retraining).  
-- requirements.txt : List of all libraries needed to run the project.
+- train_model.py : Code to train the model.  
+- requirements.txt : Libraries needed for the project.  
+- data/ : Folder containing the dataset (images).  
+
+## Trained Model
+
+The trained model is available on Google Drive:  
+https://drive.google.com/file/d/1vAtm3OVdWbsecXzKG_cGbnj3KhmIm1_e/view?usp=drive_link
