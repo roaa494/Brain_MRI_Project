@@ -2,7 +2,7 @@ import os
 import matplotlib.pyplot as plt
 import cv2
 
-DATA_DIR = "/home/esmail/Desktop/MRI/data/data_set1"
+DATA_DIR = "C:/Users/iTech/Downloads/MRI/data/data_set1"
 CATEGORIES = ["yes", "no"]
 
 for category in CATEGORIES:
