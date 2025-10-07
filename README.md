@@ -1,17 +1,28 @@
-# Brain MRI Project
+# 🧠 Brain Tumor Classification
 
-A project for analyzing brain MRI images using Machine Learning.  
-The goal is to provide a framework for processing brain scans and running a trained model.
+## 📌 Overview
+A CNN model trained to classify brain MRI images into:
+- 🧠 Tumor Detected  
+- ✅ No Tumor Detected  
 
-## Current Files
+Streamlit app allows uploading MRI images for instant prediction.
 
-- app.py : Main application code to interact with the model.  
-- main.py : Script to run the model on new data.  
-- train_model.py : Code to train the model.  
-- requirements.txt : Libraries needed for the project.  
-- data/ : Folder containing the dataset (images).  
+---
 
-## Trained Model
+## 📁 Files
+- train_model.py → Model training  
+- app.py → Web app  
+- tumor_model.h5 → Trained model  
+- requirements.txt → Libraries  
 
-The trained model is available on Google Drive:  
-https://drive.google.com/file/d/1vAtm3OVdWbsecXzKG_cGbnj3KhmIm1_e/view?usp=drive_link
+---
+
+## 🔗 Model Link
+[https://drive.google.com/file/d/1ZDJ2Eh9PpbWAslxEUdz0uevz8ua52WZD/view?usp=drive_link]
+
+---
+
+## ⚙️ Run
+```bash
+pip install -r requirements.txt
+streamlit run app.py
